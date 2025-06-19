@@ -5,9 +5,17 @@ else:
 """ 
 print('win'=='wina') """
 
-
-rcb="win"
+""" 
+rcb="lose"
 if(rcb=="win"):
     print("Ee Sala Cup Namade")
 else:
-    print("lollipop")
+    print("lollipop") """
+
+
+
+meghna=input()
+if(meghna=="Died"):
+    print("surya meets priya")
+else:
+    print("surya weds meghna")
