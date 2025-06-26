@@ -46,8 +46,32 @@ else:
 age=19
 print("the name is" + name ) """
 
-number=int(input("enter the number:"))
+""" number=int(input("enter the number:"))
 if(number%2==0):
     print("even")
 else:
-    print("odd")
+    print("odd") """
+
+
+""" score=int(input("enter the number:"))
+if(score<35):
+    print("poor student")
+elif(score>35 and score<70):
+    print("average student")
+else:
+    print("good student")
+ """
+
+""" a=int(input("number1:"))
+b=int(input("number2:"))
+user=input("add/sub/mul/div:")
+if(user=="add"):
+    print(a+b)
+elif(user=='sub'):
+    print(a-b)
+elif(user=='mul'):
+    print(a*b)
+elif(user=='div'):
+    print(a/b)
+else:
+    print("invalid operation") """
