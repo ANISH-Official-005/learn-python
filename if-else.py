@@ -95,7 +95,7 @@ if(salary>=20000 or age<=25):
     req_lnat=int(input("enter the amount"))
     if(req_lnat<=50000):
        print("eligible for loan")
-    elif(req_lnat>50000):
+    else(req_lnat>50000):
        print("maximum loan amount is 50000")
 else:
     print("not eligible for loan")
