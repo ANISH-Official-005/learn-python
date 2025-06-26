@@ -89,15 +89,28 @@ else:
     print("not elgible") """
 
 #nested if-else concept
-salary=int(input("enter the salary:"))
+""" salary=int(input("enter the salary:"))
 age=int(input("enter the age:"))
 if(salary>=20000 or age<=25):
     req_lnat=int(input("enter the amount"))
     if(req_lnat<=50000):
        print("eligible for loan")
-    else(req_lnat>50000):
+    else:
        print("maximum loan amount is 50000")
 else:
-    print("not eligible for loan")
+    print("not eligible for loan") """
 
 
+a=int(input("enter the a:"))
+b=int(input("enter the b:"))
+c=int(input("enter the c:"))
+d=int(input("enter the d:"))
+e=int(input("enter the e:"))
+add=a+b+c+d+e
+print(add)
+avg=add/5
+print(avg)
+if(avg<35):
+    print("additional class is required")
+else:
+    print("you are good to go")
