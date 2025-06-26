@@ -52,7 +52,7 @@ if(number%2==0):
 else:
     print("odd") """
 
-
+#elif concept
 """ score=int(input("enter the number:"))
 if(score<35):
     print("poor student")
@@ -78,7 +78,7 @@ else:
 """
 
 
-
+#performing operations under if-else
 """ score_percent=int(input("enter the score:"))
 if(score_percent>70):
     name=input("enter the name:")    
@@ -88,11 +88,16 @@ if(score_percent>70):
 else:
     print("not elgible") """
 
-
+#nested if-else concept
 salary=int(input("enter the salary:"))
 age=int(input("enter the age:"))
 if(salary>=20000 or age<=25):
     req_lnat=int(input("enter the amount"))
+    if(req_lnat<=50000):
+       print("eligible for loan")
+    elif(req_lnat>50000):
+       print("maximum loan amount is 50000")
 else:
     print("not eligible for loan")
+
 
