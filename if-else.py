@@ -74,4 +74,25 @@ elif(user=='mul'):
 elif(user=='div'):
     print(a/b)
 else:
-    print("invalid operation") """
+    print("invalid operation") 
+"""
+
+
+
+""" score_percent=int(input("enter the score:"))
+if(score_percent>70):
+    name=input("enter the name:")    
+    dept=input("enter the dept:")
+    locn=input("enter the location:")
+    print('you are eligible')
+else:
+    print("not elgible") """
+
+
+salary=int(input("enter the salary:"))
+age=int(input("enter the age:"))
+if(salary>=20000 or age<=25):
+    req_lnat=int(input("enter the amount"))
+else:
+    print("not eligible for loan")
+
