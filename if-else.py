@@ -32,3 +32,22 @@ if(income>7000):
     print("scholarship is available")
 else:
     print("not eligible") """
+
+
+
+""" a=int(input("enter the number:"))
+if (a%3==0 and a%5==0):
+    print("divisible ")
+else:
+    print("not divisible") """
+
+
+""" name="anish"
+age=19
+print("the name is" + name ) """
+
+number=int(input("enter the number:"))
+if(number%2==0):
+    print("even")
+else:
+    print("odd")
