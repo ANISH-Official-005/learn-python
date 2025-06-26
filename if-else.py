@@ -96,4 +96,3 @@ if(salary>=20000 or age<=25):
 else:
     print("not eligible for loan")
 
-print("hello")
