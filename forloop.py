@@ -54,3 +54,18 @@ for i in range(1,6):
 print("the sum of first 5 natural numbers is:",sum) """
 
 #for loop with list concept
+
+#write a program to read 10 numbers from the keyboard and find their sum and average
+
+""" lst=[]
+for i in range(5):
+    num=input("enter the number"+str(i+1))
+    lst.append(int(num))
+print(lst)
+
+sum=0
+for i in lst:
+    sum=sum+i
+print(sum)
+avg=sum/len(lst)
+print(avg) """
