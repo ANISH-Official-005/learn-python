@@ -69,3 +69,23 @@ for i in lst:
 print(sum)
 avg=sum/len(lst)
 print(avg) """
+
+#write a program to display n terms of natural numbers and their sum (Test data:7)
+""" a=[]
+n=int(input("enter the number:"))
+for i in range(n):
+      b=i+1
+      a.append(b)
+print("the first",n,"natural number is:",a)
+sum=0
+for _ in a:
+      sum=sum+_
+print("the sum of first",n,"natural number is:",sum) """
+
+#write a program to display the cube of the number up to an integer
+
+""" n=int(input("enter the number:"))
+for i in range(n):
+    b=i+1
+    cube=b*b*b
+    print("number is:",b,"and cube of the",b,"is:",cube ) """
