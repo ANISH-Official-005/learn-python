@@ -35,20 +35,52 @@ mul()
 div() """
 
 #2) Get a integer number from user and pass it to the function called findevenorodd().
-#Let the futFtion print whether the number is even or odd.
-""" def findevenorodd():
-    if(num%2==0):
+#Let the function print whether the number is even or odd.
+""" def findevenorodd(n):
+    if(n%2==0):
         print("even")
     else:
         print("odd")
 
  
-num=int(input("enter the number:"))
-findevenorodd() """
+a=int(input("enter a number:"))
+findevenorodd(a)  """
+
+#understanding purpose
+""" def even(b):
+    print("message",b)
+
+a="hello"
+even(a)
+ """
+
+#3) Get a integer number from user and pass it to the function called findpassorfail()
+#Let the function print equalto or above 35 is pass and below 35 is fail.
 
 
-def painter(msg):
-    print("message:",msg)
+""" def findpassorfail(mark):
+    if(mark>=35 and mark<=100):
+        print("pass")
+    elif(mark<35 and mark>=0):
+        print("fail")
+    else:
+        print("enter a valid mark")
 
-painter("helo")
+a=int(input("enter the mark:"))
+findpassorfail(a) """
+
+
+
+#understanding multiple variable in parameters
+#4)Get input for a and b and pass it to the function called printrange() 
+#let the function print numbers from a to b.
+
+""" def printrange(a,b):
+    for i in range(a,b+1):
+        print(i)
+
+
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+printrange(a,b) """
 
