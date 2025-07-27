@@ -13,7 +13,7 @@ print(hp.price) """
 
 
 
-#understanding the working of constructor
+#understanding the working of self
 """ class laptop():
     def __init__(self):
         self.ram=""
